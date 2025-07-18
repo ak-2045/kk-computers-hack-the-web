@@ -64,8 +64,3 @@ This project is licensed under the **MIT License**.
 You are free to use, modify, and distribute this project for personal or commercial use, as long as the original license is included.
 
 ---
-
-```
-
-Let me know if you’d like help generating a `LICENSE` file too or if this should be tailored further for submission or documentation.
-```
