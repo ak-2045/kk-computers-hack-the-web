@@ -1,25 +1,34 @@
-# KK Educational and Rural Development Society - Website
+# KK Educational and Rural Development Society – Demo Website
 
-This is the demo website for **KK Educational and Rural Development Society**, for the competition Hack the Web.
+This is a demo website created for **KK Educational and Rural Development Society** as part of the **Hack the Web: 24-Hour Challenge ** competition.
 
-Live Demo: [https://kk-computershack-the-web-demo.netlify.app
-](https://kk-computershack-the-web-demo.netlify.app)
-Submitted By:
+**Live Demo**: [https://kk-computershack-the-web-demo.netlify.app](https://kk-computershack-the-web-demo.netlify.app)
+**GitHub**: [https://github.com/ak-2045](https://github.com/ak-2045)
 
-Akmal Hossain
+---
 
-+91 9372665103
+## Submitted By
 
-hossainakmal2045@gmail.com
+**Name**: Akmal Hossain  
+**Phone**: +91 9372665103  
+**Email**: hossainakmal2045@gmail.com  
+**Institution**: National Institute of Technology, Agartala
 
-NIT Agartala
+---
 
 ## Features
 
-- Home section with carousel/sliders for key highlights  
-- Sections for About, Courses, Instructors, Partners, and Testimonials  
-- Modern and responsive layout  
-- Course registration and enquiry modal  
+- Interactive homepage with carousel/slider  
+- Informative sections including:
+  - About Us
+  - Courses Offered
+  - Instructor Profiles
+  - Government and Private Partners
+  - Student Testimonials
+- Responsive and accessible design  
+- Enquiry modal for course registration  
+
+---
 
 ## How to Use
 
@@ -29,16 +38,17 @@ NIT Agartala
    git clone https://github.com/your-username/kk-education-website.git
 ````
 
-2. **Navigate into the folder**
+2. **Navigate into the project folder**
 
    ```bash
    cd kk-education-website
    ```
 
-3. **Open the `index.html` file in a browser**
+3. **Open the project**
 
-   You can open it directly by double-clicking or using a Live Server if you're using a code editor like VS Code.
+   Open the `index.html` file in your browser, or use a Live Server extension (for example, in VS Code) for local preview and development.
 
+---
 
 ## External Dependencies
 
@@ -46,7 +56,16 @@ NIT Agartala
 * Lucide Icons
 * Font Awesome (for additional icons)
 
+---
+
 ## License
 
-This project is licensed under the MIT License.
-You are free to use, modify, and distribute this code for personal or commercial use, provided you include the original license.
+This project is licensed under the **MIT License**.
+You are free to use, modify, and distribute this project for personal or commercial use, as long as the original license is included.
+
+---
+
+```
+
+Let me know if you’d like help generating a `LICENSE` file too or if this should be tailored further for submission or documentation.
+```
