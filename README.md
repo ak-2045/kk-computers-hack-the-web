@@ -2,6 +2,8 @@
 
 This is the demo website for **KK Educational and Rural Development Society**, for the competition Hack the Web.
 
+Live Demo: [https://kk-computershack-the-web-demo.netlify.app
+](https://kk-computershack-the-web-demo.netlify.app)
 Submitted By:
 
 Akmal Hossain
