@@ -1,10 +1,15 @@
 # KK Educational and Rural Development Society - Website
 
 This is the demo website for **KK Educational and Rural Development Society**, for the competition Hack the Web.
+
 Submitted By:
+
 Akmal Hossain
+
 +91 9372665103
+
 hossainakmal2045@gmail.com
+
 NIT Agartala
 
 ## Features
