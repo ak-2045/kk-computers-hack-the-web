@@ -37,7 +37,6 @@ This is a demo website created for **KK Educational and Rural Development Societ
 
    ```bash
    git clone https://github.com/your-username/kk-education-website.git
-````
 
 2. **Navigate into the project folder**
 
