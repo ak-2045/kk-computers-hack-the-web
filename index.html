@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK Educational and Rural Development Society</title>
+    <link rel="icon" type="image/x-icon" href="images/ico.ico">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="images/2kk.png" alt="KK Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="#courses">COURSES</a></li>
+                <li><a href="skill-development.html">SKILL DEVELOPMENT COURSES</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; gap: 1rem;">
+    <button class="join-now">
+        <span>Join Now</span>
+        <div id="right-icon" style="margin-left: 8px;">
+            <i class="arrow-icon" data-lucide="arrow-right"></i>
+        </div>
+    </button>
+</div>
+
+        </nav>
+    </header>
+
+   <section id="home" class="hero">
+    <button id="theme-toggle" class="theme-float-btn">
+        <i id="theme-icon" data-lucide="sun"></i>
+    </button>
+    <div class="slider-container">
+        <button class="arrow left" id="prev-slide"><i data-lucide="chevron-left"></i></button>
+        <button class="arrow right" id="next-slide"><i data-lucide="chevron-right"></i></button>
+
+        <div class="slide active"> 
+        <img src="images/carousel-1.jpg" alt="carousel-1" class="hero-image" />
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <span class="hero-subtitle">KK COMPUTERS</span>
+            <h2>Empowering Youth Through IT & Skill Development</h2>
+            <p>Certified courses in Tally, Python, MS Office, and more. <br/>Start your digital journey with expert trainers and job-ready skills.</p>
+            <div class="hero-buttons">
+            <a href="#about" class="btn btn-primary">
+                <span class="btn-content">
+                Know More
+                <i data-lucide="book-open"></i>
+                </span>
+            </a>
+            <a href="#courses" class="btn btn-secondary">
+                <span class="btn-content">
+                Register Today
+                <i data-lucide="log-in"></i>
+                </span>
+            </a>
+            </div>
+
+        </div>
+        </div>
+
+        <div class="slide">
+        <img src="images/carousel-2.jpg" alt="carousel-2" class="hero-image" />
+        <div class="overlay"></div> 
+        <div class="hero-content">
+            <span class="hero-subtitle"> SKILL UP WITH KK COMPUTERS</span>
+            <h2>Your Gateway to Government-Certified IT Courses</h2>
+            <p>Affiliated with PMKVY & APSSDC. Learn digital literacy, accounting, <br/>and programming in a practical, hands-on environment.</p>
+            <div class="hero-buttons">
+            <a href="#courses" class="btn btn-primary">
+                <span class="btn-content">
+                Explore Courses
+                <i data-lucide="graduation-cap"></i>
+                </span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+                <span class="btn-content">
+                Enroll Now
+                <i data-lucide="square-arrow-out-up-right"></i>
+                </span>
+            </a>
+            </div>
+
+
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <section class="features">
+    <div class="container">
+        <div class="features-grid">
+        <div class="feature-card">
+            <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+            <h3>Skilled Instructors</h3>
+            <p class="features-desc">Our certified instructors offer expert guidance to help you build strong career skills.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon"><i class="fas fa-gears"></i></div>
+            <h3>Vocational Training</h3>
+            <p class="features-desc">Certified vocational programs designed to equip you with job-ready skills for a better future.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon"><i class="fas fa-briefcase"></i></div>
+            <h3>Urban Employment</h3>
+            <p class="features-desc">Empowering youth through job training, career guidance, and placement support.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon"><i class="fas fa-book"></i></div>
+            <h3>Learning Resources</h3>
+            <p class="features-desc">Access expert content, practical tools, and materials to support training and growth.</p>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-us.png" alt="About Us Image">
+                </div>
+
+                <div class="about-text">
+                    <h3>Welcome to KK Educational and Rural Development Society</h3>
+                    <p>KK Educational and Rural Development Society is committed to transforming the lives of individuals in rural areas through quality education, skill development, and community empowerment initiatives.</p>
+                    <p>We operate in regions where access to education is limited, aiming to break down these barriers and create pathways to knowledge and opportunity.</p>
+                    <a href="about.html" class="read-more-btn">Read More
+                        <i class = "icon-inline" data-lucide="square-arrow-out-up-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+    <div class="container">
+    <h2>Our Training Partners</h2>
+    <div class="partners-slider">
+      <div class="slider-track">
+        <div class="logo-card">
+          <img src="images/SEEDAP.png" alt="SEEDAP">
+          <div class="logo-name">SEEDAP</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/ddugky.png" alt="DDUGKY">
+          <div class="logo-name">DDUGKY</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/nsdc.png" alt="NSDC">
+          <div class="logo-name">NSDC</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/pmkvy.png" alt="PMKVY">
+          <div class="logo-name">PMKVY</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/mepma.png" alt="MEPMA AP">
+          <div class="logo-name">MEPMA AP</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/PM.png" alt="PM VISHWAKARMA">
+          <div class="logo-name">PM VISHWAKARMA</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/AP.png" alt="AP GOVERNMENT">
+          <div class="logo-name">AP GOVERNMENT</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/sc.png" alt="AP SCHEDULE CASTE">
+          <div class="logo-name">AP SCHEDULED CASTES</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/S.png" alt="GRAMA TRAININGS">
+          <div class="logo-name">GRAMA SACHIVALAYAM TRAININGS</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/ssdc.png" alt="APSSDC">
+          <div class="logo-name">APSSDC</div>
+        </div>
+
+        <div class="logo-card">
+          <img src="images/SEEDAP.png" alt="SEEDAP">
+          <div class="logo-name">SEEDAP</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/ddugky.png" alt="DDUGKY">
+          <div class="logo-name">DDUGKY</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/nsdc.png" alt="NSDC">
+          <div class="logo-name">NSDC</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/pmkvy.png" alt="PMKVY">
+          <div class="logo-name">PMKVY</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/mepma.png" alt="MEPMA AP">
+          <div class="logo-name">MEPMA AP</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/PM.png" alt="PM VISHWAKARMA">
+          <div class="logo-name">PM VISHWAKARMA</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/AP.png" alt="AP GOVERNMENT">
+          <div class="logo-name">AP GOVERNMENT</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/sc.png" alt="AP SCHEDULE CASTE">
+          <div class="logo-name">AP SCHEDULED CASTES</div>
+        <div class="logo-card">
+          <img src="images/S.png" alt="GRAMA TRAININGS">
+          <div class="logo-name">GRAMA SACHIVALAYAM TRAININGS</div>
+        </div>
+        <div class="logo-card">
+          <img src="images/ssdc.png" alt="APSSDC">
+          <div class="logo-name">APSSDC</div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number" data-count="40000">0</div>
+            <div class="stat-label">STUDENTS SUCCESSFULLY TRAINED</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-count="9">0</div>
+            <div class="stat-label">TRAINING CENTRES</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" data-count="50">0</div>
+            <div class="stat-label">EXPERT FACULTIES</div>
+        </div>
+        </div>
+</section>
+
+    <section class="director">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 2rem; margin-top: -2rem;">
+                <h3 class="section-title">Message from the Director</h3>
+            </div>
+            <div class="director-content">
+                <div class="director-image">
+                    <img src="images/director.png" alt="Director Image">
+                    <div class="director-name">Valleti Raveendra</div>
+                    <div class="director-role">Director, KK Educational Rural Development Society</div>
+                </div>
+                <div class="director-text">
+                    <h3>Welcome to KK Educational Rural Development Society!</h3>
+                    <p>Our organization is founded on the belief that education is the cornerstone of societal progress and empowerment. We are dedicated to transforming lives in rural areas through quality education, skill development, and community empowerment initiatives.</p>
+                    <p>We operate in regions where access to education is limited. Our mission is to break down these <br/> barriers and create pathways to knowledge and opportunity. By providing access to education and training, we empower individuals to improve their lives and uplift their communities.</p>
+                    <p><strong>Our focus areas:</strong></p>
+                    <ul>
+                        <li>Skill Development and Vocational Training: Equipping youth and adults with practical skills <br/> for today's workforce.</li>
+                        <li>Empowerment of Women and Girls: Ensuring equal access to education and professional <br/>growth opportunities.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+    <div class="container">
+        
+        <div class="section-header text-center">
+        <h3 class="section-title-categories">Course Categories</h3>
+        </div>
+
+        <div class="categories-grid">
+        <div class="category-card">
+            <img src="images/cat-1.jpg" alt="Skill Development Courses" />
+            <div class="category-info">
+            <h4>Skill Development Courses</h4>
+            <p>3 Courses</p>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/cat-4.jpg" alt="Diploma Courses" />
+            <div class="category-info">
+            <h4>Diploma Courses</h4>
+            <p>8 Courses</p>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/cat-2.jpg" alt="Professional Courses" />
+            <div class="category-info">
+            <h4>Professional Courses</h4>
+            <p>19 Courses</p>
+            </div>
+        </div>
+
+        <div class="category-card">
+            <img src="images/cat-3.jpg" alt="Programming" />
+            <div class="category-info">
+            <h4>Programming</h4>
+            <p>9 Courses</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="section-header text-center">
+        <h3 class="section-title-popular">Popular Courses</h3>
+        </div>
+
+        <div class="courses-grid">
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/MS.png" alt="MS Office Comprehensive Course for Beginners">
+            </div>
+            <div class="course-content">
+                <div class="course-info-inline">
+            <div class="details">
+            <div class="course-price">₹4,500.00</div>
+            <div class="course-rating">★★★★★ (1.2k+)</div>
+            </div>
+            <div class="course-join">
+                <button class="join-btn-popular">Join Now <i class="meta-icon" data-lucide="external-link"></i></button>
+            </div>
+            </div>
+            <div class="course-title">MS Office Comprehensive Course for Beginners</div>
+            <div class="course-meta">
+    <span><i class="meta-icon" data-lucide="calendar-days"></i> 45 Days</span>
+    <span><i class="meta-icon" data-lucide="users"></i> 30 Students</span>
+</div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="course-image">
+            <img src="images/TALLY.png" alt="TALLY ERP 9 Training for Beginners">
+            </div>
+            <div class="course-content">
+                <div class="course-info-inline">
+            <div class="details">
+            <div class="course-price">₹4,500.00</div>
+            <div class="course-rating">★★★★★ (800+)</div>
+            </div>
+            <div class="course-join">
+                <button class="join-btn-popular">Join Now <i class="meta-icon" data-lucide="external-link"></i> </button>
+            </div>
+            </div>
+            <div class="course-title">Tally ERP 9 Training for Beginners<br/><br/></div>
+            <div class="course-meta">
+    <span><i class="meta-icon" data-lucide="calendar-days"></i> 45 Days</span>
+    <span><i class="meta-icon" data-lucide="users"></i> 30 Students</span>
+</div>
+            </div>
+        </div>
+
+        <div class="course-card">
+            <div class="course-image">
+                <img src="images/DTP.png" alt="Desktop Publishing (DTP)">
+            </div>
+            <div class="course-content">
+            <div class="course-info-inline">
+            <div class="details">
+            <div class="course-price">₹4,500.00</div>
+            <div class="course-rating">★★★★★ (450+)</div>
+            </div>
+            <div class="course-join">
+                <button class="join-btn-popular">Join Now <i class="meta-icon" data-lucide="external-link"></i> </button>
+            </div>
+            </div>
+            <div class="course-title">Desktop Publishing (DTP)<br/><br/></div>
+           <div class="course-meta">
+    <span><i class="meta-icon" data-lucide="calendar-days"></i> 45 Days</span>
+    <span><i class="meta-icon" data-lucide="users"></i> 30 Students</span>
+</div>
+            </div>
+        </div>
+
+        <div class="course-card course-card-photoshop">
+            <div class="course-image-photoshop">
+                <img src="images/PS.png" alt="Adobe Photoshop">
+            </div>
+            <div class="course-content">
+            <div class="course-info-inline">
+            <div class="details">
+            <div class="course-price">₹4,500.00</div>
+            <div class="course-rating">★★★★★ (1k+)</div>
+            </div>
+             <div class="course-join">
+                <button class="join-btn-popular">Join Now <i class="meta-icon" data-lucide="external-link"></i> </button>
+            </div>
+            </div>
+            <div class="course-title" >Adobe Photoshop</div>
+            <div class="course-meta">
+    <span><i class="meta-icon" data-lucide="calendar-days"></i> 45 Days</span>
+    <span><i class="meta-icon" data-lucide="users"></i> 30 Students</span>
+</div>
+        </div>
+
+    </div>
+    </section>
+
+    <section class="instructors">
+  <div class="container">
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h3 class="section-title title-instructors">Expert Instructors</h3>
+    </div>
+    <div class="instructors-slider">
+      <div class="instructors-grid">
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/prasad.jpg" alt="CHATRAPU BKVV PRASAD">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">CHATRAPU BKVV PRASAD</div>
+            <div class="instructor-role">ONGOLE - CENTER INCHARGE</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/lakshmi.jpg" alt="LAKSHMI">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">LAKSHMI</div>
+            <div class="instructor-role">MANAGEMENT INFORMATION SYSTEM</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/bhaskhar.jpg" alt="L. BHASKHAR">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">L. BHASKHAR</div>
+            <div class="instructor-role">IT TRAINER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/SRINU.jpg" alt="KATEBOINA SRINIVAS">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">KATEBOINA SRINIVAS</div>
+            <div class="instructor-role">NON - DOMAIN TRAINER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/Surendra.jpg" alt="SANIKOMMU SURENDRA">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">SANIKOMMU SURENDRA</div>
+            <div class="instructor-role">DOMAIN TRAINNER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/guntur 1.jpg" alt="PALAKALURI PRABHAVATHI">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">PALAKALURI PRABHAVATHI</div>
+            <div class="instructor-role">GUNTUR - CENTER INCHARGE</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/guntur 2.jpg" alt="PODILI NAGARJUNA">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">PODILI NAGARJUNA</div>
+            <div class="instructor-role">IT TRAINER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/guntur 7.jpg" alt="MAKHAM KIRAN">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">MAKHAM KIRAN</div>
+            <div class="instructor-role">ENGLISH AND SOFT SKILLS</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/guntur 4.jpg" alt="KASU HEMA SRI">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">KASU HEMA SRI</div>
+            <div class="instructor-role">DOMAIN TRAINER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/guntur 5.jpg" alt="SRIDHARLA RAMESH">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">SRIDHARLA. RAMESH</div>
+            <div class="instructor-role">DOMAIN TRAINER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/guntur 6.jpg" alt="BONIGALA INDUMATHI">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">BONIGALA.INDUMATHI</div>
+            <div class="instructor-role">MANAGEMENT INFORMATION SYSTEM</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 1.jpg" alt="RAJESH BEVARA">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">RAJESH BEVARA</div>
+            <div class="instructor-role">SAMARLAKOTA - CENTER INCHARGE</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 2.jpg" alt="GONCHALA DURGADEVI">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">GONCHALA DURGADEVI</div>
+            <div class="instructor-role">MANAGEMENT INFORMATION SYSTEM</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 3.jpg" alt="ACHANTA RAJASHEKAR">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">ACHANTA RAJASHEKAR</div>
+            <div class="instructor-role">NON - DOMAIN TRAINER</div>
+          </div>
+        </div>
+        <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 4.jpg" alt="KESUPAKA SANTHOSH">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">KESUPAKA SANTHOSH</div>
+            <div class="instructor-role">NON - DOMAIN TRAINER</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 5.jpg" alt="GOLAGANI LAKSHMI DURGA">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">GOLAGANI LAKSHMI DURGA</div>
+            <div class="instructor-role">ENGLISH TRAINNER</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 6.jpg" alt="AKULA SAIKRISHNA SAGAR">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">AKULA SAIKRISHNA SAGAR</div>
+            <div class="instructor-role">DOMAIN TRAINER</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 7.jpg" alt="PINNA SAIVARMA">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">PINNA SAIVARMA</div>
+            <div class="instructor-role">DOMAIN TRAINER</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/sam 8.jpg" alt="AKKABATHULA RAJKUMAR">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">AKKABATHULA RAJKUMAR</div>
+            <div class="instructor-role">DOMAIN TRAINER</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/darsi 3.jpg" alt="MUKKALA ASHOK KUMAR">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">MUKKALA ASHOK KUMAR</div>
+            <div class="instructor-role">DARASI - CENTER INCHARGE</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/darsi 1.jpg" alt="YACHAVARAPU NAVYA">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">YACHAVARAPU NAVYA</div>
+            <div class="instructor-role">MANAGEMENT INFORMATION SYSTEM</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/darsi 2.jpg" alt="KATURI KOTESWARARAO">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">KATURI KOTESWARARAO</div>
+            <div class="instructor-role">ENGLISH AND SOFT SKILLS</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/darsi 4.jpg" alt="KANAMARLAPUDI VOS KUMAR">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">KANAMARLAPUDI VOS KUMAR</div>
+            <div class="instructor-role">IT TRAINER</div>
+          </div>
+        </div>
+         <div class="instructor-card">
+          <div class="instructor-image">
+            <img src="images/darsi 5.jpg" alt="ANNAVARAPU VENKATA SIVESWARARAO">
+          </div>
+          <div class="instructor-info">
+            <div class="instructor-name">ANNAVARAPU VENKATA SIVESWARARAO</div>
+            <div class="instructor-role">DOMAIN TRAINER</div>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+</section>
+
+   <section class="testimonials">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 2rem;">
+            <h3 class="section-title section-title-testimonials">Our Students Say!</h3>
+        </div>
+
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">PS</div>
+                <div class="testimonial-text">MS Office comprehensive course helped me enhance my skills and improve my career prospects tremendously.</div>
+                <div class="testimonial-author">Priya Singh</div>
+                <div class="testimonial-role">MS Office Student</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">AR</div>
+                <div class="testimonial-text">The MEPMA training was excellent, giving me the confidence and skills needed to excel in my field, effectively.</div>
+                <div class="testimonial-author">Anjali Reddy</div>
+                <div class="testimonial-role">MEPMA Student</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">SK</div>
+                <div class="testimonial-text">Learning Tally ERP 9 was smooth and practical, which helped me land a great job quickly. Really thankful to KK Computers!</div>
+                <div class="testimonial-author">Suresh Kumar</div>
+                <div class="testimonial-role">Tally Student</div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-avatar">RK</div>
+                <div class="testimonial-text">Completed a 3-month DDUGKY course and secured a job in Sricity. Grateful for the hands-on training and support!</div>
+                <div class="testimonial-author">Rahul Kumar</div>
+                <div class="testimonial-role">DDUGKY Student</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="contact">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul class="footer-links"> <li><a href="#about"><i class="footer-arrow" data-lucide="chevron-right"></i> About Us</a></li>
+  <li><a href="#contact"><i class="footer-arrow" data-lucide="chevron-right"></i> Contact Us</a></li>
+  <li><a href="#"><i class="footer-arrow" data-lucide="chevron-right"></i> Privacy Policy</a></li>
+  <li><a href="#"><i class="footer-arrow" data-lucide="chevron-right"></i> Terms & Conditions</a></li>
+  <li><a href="#"><i class="footer-arrow" data-lucide="chevron-right"></i> FAQs & Help</a></li>
+</ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Head Office</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 34-1/16, Opposite District Library, Court Centre, Ongole</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9963647799</p>
+        <p><i class="fas fa-envelope"></i> kkcomputersiso@gmail.com</p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Society Address</h3>
+        <p><i class="fas fa-map-marker-alt"></i> 37-1-413 (1198), Ram Nagar, Sth Janepalli, Ongole, Prakasam District</p>
+        <p><i class="fas fa-phone-alt"></i> +91 9963647799</p>
+        <p><i class="fas fa-envelope"></i> kkcomputersiso@gmail.com</p>
+     <div class="social-icons">
+  <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+  <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+  <a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+
+    <div class="footer-section">
+        <h3>Get in Touch</h3>
+        <p>Stay connected with us for <br/> training schedules, new courses, <br/> and community programs.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="footer-bottom-text">
+      <p>© <span>KK COMPUTERS</span>, All Rights Reserved.</p>
+      <p>Designed by <span>hossainakmal2045@gmail.com</span> for <span style="font-style: italic; text-decoration: none;">Hack the Web: KK Computers</span></p>
+      </div>
+      <div class="footer-links-other">
+        <a href="#">Home</a>
+        <a href="#">Cookies</a>
+        <a href="#">Help</a>
+        <a href="#">FAQs</a>
+      </div>
+    </div>
+
+    <div class="scroll-top" id="scrollTopBtn">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+  </div>
+
+  <div id="enquiryModal" class="modal"  style="display: none;">
+    <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 class="modal-title">Quick Enquiry</h2>
+
+        <form>
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="emailID">Email ID</label>
+                <input type="email" id="emailID" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="message">Purpose / Message</label>
+                <textarea id="message" placeholder="Which course are you interested in?"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</div>
+</footer>
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<script>
+  document.getElementById("scrollTopBtn").addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  window.addEventListener("scroll", function () {
+    const btn = document.getElementById("scrollTopBtn");
+    if (window.scrollY > 300) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  });
+
+  
+  // hide it initially
+  document.getElementById("scrollTopBtn").style.display = "none";
+</script>
+
+</body>
+</html>
